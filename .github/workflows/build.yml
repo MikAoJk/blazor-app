@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   build:
-    name: Checkout code and test, clean build
+    name: Checkout code and build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
